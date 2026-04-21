@@ -1,16 +1,26 @@
-# React + Vite
+Signal Board 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Signal Board application built using React,Tailwind,Javascript. It allows users to review items, filter them, and can change status like marking them as reviewed or snoozed.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Contains Various Features:-
 
-## React Compiler
+View list of items
+Search by title
+Filter by status (Pending, Reviewed, Snoozed)
+Sort by date (Latest / Oldest)
+View item details in a modal
+Update item status (Reviewed / Snoozed)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 
+Used component-based structure: Home → List → Card → Modal
+Managed state centrally in Home.jsx for better control
+Implemented filtering, search, and sorting on the client side
+Used simple mock data instead of backend as per instructions
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ AI Usage :-
+
+This project was built with the assistance of AI (ChatGPT) for guidance, debugging, and understanding concepts. All implementation decisions and code structure were reviewed and adapted by me.
+
+
